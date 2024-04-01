@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: '', //TODO: Your GitHub org/user name. (Required)
+    username: 'SashaB09', //TODO: Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
@@ -20,10 +20,10 @@ const config = {
     //TODO: Add in Socials
     linkedin: '',
     facebook: '',
-    instagram: '',
+    instagram: 'None',
     tiktok: '',
-    email: '',
-    website: '',
+    email: 'sashabagul2009@gmail.com',
+    website: 'No website',
     // dev: '',
     // twitter: '',
     // mastodon: '',
@@ -41,76 +41,73 @@ const config = {
   },
   skills: [
     'Scratch',
-    'Microbit',
+    'HTML',
     'JavaScript',
     'Design Thinking',
     'Python',
     'Git',
     'CSS',
-    'MakeCode',
     'ScratchJr',
-    'Hopscotch',
     'Robotics',
-    'Typescript',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
-  education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
+  // experiences: [
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'September 2021',
+  //     to: 'Present',
+  //     companyLink: 'https://example.com',
+  //   },
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'July 2019',
+  //     to: 'August 2021',
+  //     companyLink: 'https://example.com',
+  //   },
+  // ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
+  // education: [
+  //   {
+  //     institution: 'Institution Name',
+  //     degree: 'Degree',
+  //     from: '2015',
+  //     to: '2019',
+  //   },
+  //   {
+  //     institution: 'Institution Name',
+  //     degree: 'Degree',
+  //     from: '2012',
+  //     to: '2014',
+  //   },
+  // ],
 
   // TODO: Add external projects
-  externalProjects: [
-    {
-      title: 'Microbit Flappy Bird',
-      description:
-        'This project presents a Flappy Bird-inspired game designed for the Micro:bit v2 platform. It is constructed using for loops, conditional statements, functions, and lists to create an entertaining and interactive gaming experience.',
-      imageUrl:
-        'https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png',
-      link: 'https://makecode.microbit.org/_8hTHCD4ax7ty',
-    },
-    {
-      title: 'Microbit Space Invaders',
-      description:
-        "This project features a traditional Space Invaders game developed for the Microbit v2 platform. It utilizes while loops, conditional statements, variables, and the Microbit's native game coordinate system to deliver an engaging gaming experience.",
-      imageUrl:
-        'https://www.svg.com/img/gallery/the-original-idea-behind-space-invaders-that-could-have-changed-gaming-forever/l-intro-1608754172.jpg',
-      link: 'https://makecode.microbit.org/_UXqLuYJfJRL6',
-    },
-  ],
+  // externalProjects: [
+  //   {
+  //     title: 'Microbit Flappy Bird',
+  //     description:
+  //       'This project presents a Flappy Bird-inspired game designed for the Micro:bit v2 platform. It is constructed using for loops, conditional statements, functions, and lists to create an entertaining and interactive gaming experience.',
+  //     imageUrl:
+  //       'https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png',
+  //     link: 'https://makecode.microbit.org/_8hTHCD4ax7ty',
+  //   },
+  //   {
+  //     title: 'Microbit Space Invaders',
+  //     description:
+  //       "This project features a traditional Space Invaders game developed for the Microbit v2 platform. It utilizes while loops, conditional statements, variables, and the Microbit's native game coordinate system to deliver an engaging gaming experience.",
+  //     imageUrl:
+  //       'https://www.svg.com/img/gallery/the-original-idea-behind-space-invaders-that-could-have-changed-gaming-forever/l-intro-1608754172.jpg',
+  //     link: 'https://makecode.microbit.org/_UXqLuYJfJRL6',
+  //   },
+  // ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
   //   source: 'dev', // medium | dev
@@ -127,7 +124,7 @@ const config = {
   },
   themeConfig: {
     //TODO: Change the theme of the website to your liking
-    defaultTheme: 'bumblebee',
+    defaultTheme: 'black',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
