@@ -124,7 +124,7 @@ const config = {
   },
   themeConfig: {
     //TODO: Change the theme of the website to your liking
-    defaultTheme: 'black',
+    defaultTheme: 'corporate',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
